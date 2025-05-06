@@ -49,10 +49,8 @@ u.rain(radius)
 
 ### OUTPUT
 
-```
-Enter the radius of the circle: 4.5
-Area of the circle with radius 4.5 is: 63.62
-```
+![image](https://github.com/user-attachments/assets/c0fea52a-dc50-441c-9f64-37c5736e2c6a)
+
 
 ---
 
