@@ -35,11 +35,42 @@ To write a Python program to perform addition and division operations using a cl
 ### PROGRAM
 
 ```
+# Reg.No-212223060231
+# Name-Royce Niran George A
 
+class calc:
+    def setvalues(self, a, b):
+        self.a = a
+        self.b = b
 
+    def add(self):
+        return self.a + self.b
+
+    def mul(self):
+        return self.a * self.b
+
+a = int(input())
+b = int(input())
+c = calc()
+c.setvalues(a, b)
+
+while True:
+    choice = int(input("Enter 1 for Addition, 2 for Multiplication, 0 to Exit: "))
+    
+    if choice == 1:
+        print("Result:", c.add())
+    elif choice == 2:
+        print("Result:", c.mul())
+    elif choice == 0:
+        print("Exiting!")
+        break
+    else:
+        print("Invalid choice")
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/97de141f-7d18-4478-b805-8ddea623c766)
 
 ### RESULT
+Thus the program to perform addition and division operations using a class has been implemented and executed successfully.
